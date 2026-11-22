@@ -1,0 +1,57 @@
+{
+ "motif_codes": "main",
+ "n_seals_before_dedup": 1214,
+ "n_seals": 1156,
+ "unicorn_share": 0.7690311418685121,
+ "n_signs": 316,
+ "A_unicorn_vs_other": {
+  "auc": 0.5114213251433458,
+  "log_loss": 0.5681316050695386,
+  "base_log_loss": 0.5404443760794442,
+  "auc_length_only": 0.5581029899352468,
+  "shuffled_auc_mean": 0.49998230558258866,
+  "shuffled_auc_max": 0.6012478777231498,
+  "p_value": 0.36318407960199006
+ },
+ "B_per_sign": {
+  "signs_tested": 109,
+  "significant_at_fdr_05": 0,
+  "smallest_q": 0.22459721695597137
+ },
+ "C_which_animal": {
+  "codes": {
+   "40": 889,
+   "42": 75,
+   "43": 49,
+   "51": 37,
+   "41": 27,
+   "50": 20,
+   "53": 15
+  },
+  "accuracy": 0.7967625899280576,
+  "always_unicorn": 0.7994604316546763,
+  "non_unicorn_balanced_accuracy": 0.2197947607471417,
+  "non_unicorn_balanced_accuracy_length_only": 0.19944444444444442,
+  "chance": 0.16666666666666666,
+  "shuffled_mean": 0.16875153980511123,
+  "p_value": 0.0845771144278607
+ },
+ "D_mutual_information": {
+  "all_codes": {
+   "n": 1112,
+   "observed": 0.38417367585456164,
+   "shuffled_mean": 0.3560565157983759,
+   "shuffled_sd": 0.015736107478566356,
+   "z": 1.7867925784367722,
+   "p_value": 0.05647840531561462
+  },
+  "non_unicorn_only": {
+   "n": 223,
+   "observed": 0.8122257562630509,
+   "shuffled_mean": 0.6705321977750772,
+   "shuffled_sd": 0.051877661181230335,
+   "z": 2.7313019758731785,
+   "p_value": 0.013289036544850499
+  }
+ }
+}

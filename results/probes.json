@@ -1,0 +1,137 @@
+{
+ "n_distinct_unbroken_texts": 1535,
+ "n_tokens": 6965,
+ "1_long_texts_made_of_standalone_pieces": {
+  "n_texts_5plus": 728,
+  "observed": 0.05631868131868132,
+  "shuffled_mean": 0.0002747252747252747
+ },
+ "2_positions": {
+  "most_end_locked": [
+   {
+    "sign": 217,
+    "n": 127,
+    "end_frac": 0.84251968503937
+   },
+   {
+    "sign": 1,
+    "n": 62,
+    "end_frac": 0.8387096774193549
+   },
+   {
+    "sign": 301,
+    "n": 45,
+    "end_frac": 0.8222222222222222
+   },
+   {
+    "sign": 98,
+    "n": 127,
+    "end_frac": 0.8031496062992126
+   },
+   {
+    "sign": 13,
+    "n": 59,
+    "end_frac": 0.7966101694915254
+   }
+  ],
+  "most_start_locked": [
+   {
+    "sign": 256,
+    "n": 31,
+    "start_frac": 0.8387096774193549
+   },
+   {
+    "sign": 383,
+    "n": 219,
+    "start_frac": 0.7945205479452054
+   },
+   {
+    "sign": 376,
+    "n": 132,
+    "start_frac": 0.6893939393939394
+   },
+   {
+    "sign": 210,
+    "n": 47,
+    "start_frac": 0.574468085106383
+   },
+   {
+    "sign": 327,
+    "n": 25,
+    "start_frac": 0.56
+   }
+  ]
+ },
+ "3_context_pairs": [
+  {
+   "a": 324,
+   "b": 325,
+   "context_similarity": 0.987,
+   "texts_with_both": 31,
+   "expected_if_independent": 88.0
+  },
+  {
+   "a": 324,
+   "b": 326,
+   "context_similarity": 0.984,
+   "texts_with_both": 3,
+   "expected_if_independent": 17.2
+  },
+  {
+   "a": 325,
+   "b": 326,
+   "context_similarity": 0.981,
+   "texts_with_both": 10,
+   "expected_if_independent": 20.7
+  },
+  {
+   "a": 326,
+   "b": 1,
+   "context_similarity": 0.963,
+   "texts_with_both": 2,
+   "expected_if_independent": 3.1
+  },
+  {
+   "a": 325,
+   "b": 1,
+   "context_similarity": 0.958,
+   "texts_with_both": 10,
+   "expected_if_independent": 16.0
+  },
+  {
+   "a": 324,
+   "b": 1,
+   "context_similarity": 0.956,
+   "texts_with_both": 2,
+   "expected_if_independent": 13.3
+  },
+  {
+   "a": 98,
+   "b": 1,
+   "context_similarity": 0.947,
+   "texts_with_both": 6,
+   "expected_if_independent": 4.8
+  },
+  {
+   "a": 4,
+   "b": 1,
+   "context_similarity": 0.939,
+   "texts_with_both": 0,
+   "expected_if_independent": 1.7
+  },
+  {
+   "a": 98,
+   "b": 326,
+   "context_similarity": 0.93,
+   "texts_with_both": 3,
+   "expected_if_independent": 6.2
+  },
+  {
+   "a": 98,
+   "b": 324,
+   "context_similarity": 0.926,
+   "texts_with_both": 21,
+   "expected_if_independent": 26.2
+  }
+ ]
+}

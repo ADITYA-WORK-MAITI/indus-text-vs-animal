@@ -1,0 +1,14 @@
+{
+ "sign_on_10pct_of_other_seals": {
+  "auc_mean": 0.5167010022623576,
+  "auc_sd": 0.013392995993831569
+ },
+ "sign_on_20pct_of_other_seals": {
+  "auc_mean": 0.5747342677670909,
+  "auc_sd": 0.011048398410148822
+ },
+ "sign_on_30pct_of_other_seals": {
+  "auc_mean": 0.6249101587020724,
+  "auc_sd": 0.014619525379509342
+ }
+}
