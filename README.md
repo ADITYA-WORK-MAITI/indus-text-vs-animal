@@ -47,6 +47,8 @@ The key to the motif codes is in the 1973 concordance, which is not online. Code
 
 ## Results
 
+![Sign rates on unicorn vs other seals](figures/signs_vs_animal.png)
+
 | Test | Main run (codes 40-89) | Sensitivity run (codes 40-98) |
 |---|---|---|
 | A. AUC, unicorn vs other, from signs | 0.51, p = 0.36 (shuffled: mean 0.50, max 0.60) | 0.53, p = 0.09 |
